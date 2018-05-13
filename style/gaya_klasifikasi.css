@@ -1,0 +1,53 @@
+.wrap{
+	background: #637254;
+	width: 100%;
+	margin: 10px auto;
+}
+ 
+/*bagian header*/
+.wrap .header{
+	background: green;
+	/*height: 50px;*/
+	padding: 20px 10px;
+}
+ 
+/*akhir header*/
+ 
+/*bagian menu*/
+.wrap .menu{
+	background: #aff26d;
+}
+ 
+.wrap .menu ul{
+    padding: 8px 16px;
+	margin: 5px;
+	background:#aff26d;
+	overflow: hidden;
+}
+ 
+.wrap .menu ul li{
+	float: right;
+	list-style-type: none;
+    padding: 10px;
+}
+/*akhir menu*/
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+    height: 1000px;
+    background: url('backgroundlogin.jpg');
+}
+
+.isi{
+    height:1000px;
+    width:60%;
+    background:#eaf2e3;
+}
+.wrap .footer{
+	width: 100%;
+	padding: 10px;
+}
+

@@ -1,0 +1,68 @@
+.wrap{
+	background: #637254;
+	width: 100%;
+	margin: 10px auto;
+}
+ 
+/*bagian header*/
+.wrap .header{
+	background: green;
+	/*height: 50px;*/
+	padding: 20px 10px;
+}
+ 
+/*akhir header*/
+ 
+/*bagian menu*/
+.wrap .menu{
+	background: #aff26d;
+}
+ 
+.wrap .menu ul{
+    padding: 8px 16px;
+	margin: 5px;
+	background:#aff26d;
+	overflow: hidden;
+}
+ 
+.wrap .menu ul li{
+	float: right;
+	list-style-type: none;
+	padding: 10px;
+}
+
+/*akhir menu*/
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 450px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background:#f9f9f7;
+	float: left;	
+	width: 38%;
+	height: 1000px;
+}
+
+/*akhir sidebar*/
+ 
+.wrap .badan .content{
+	background:#d3d3c4;
+	float: left;
+	height: 1000px;
+	width: 62%;	
+}
+ 
+.wrap .footer{
+	width: 100%;
+	padding: 10px;
+}
+
+p{
+	font-family: "Book Antiqua";
+
+}
