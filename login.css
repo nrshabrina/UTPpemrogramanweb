@@ -1,0 +1,57 @@
+body {
+    background: url('backgroundlogin.jpg');
+}
+
+div {
+  font-family: "MS Gothic";
+  font-size: 14px;
+  border: 1px solid rgb(42, 104, 61);
+  width: 350px;
+  height: 60%;
+  background: #d8e8a9;
+  border-radius: 1px ;
+  padding:70px 45px;
+  margin: 0 auto;
+
+}
+.input {
+  display: block;
+  padding: 15px 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(172, 192, 123) ;
+  background:  rgb(172, 192, 123) ;
+  width: 100%;
+  box-sizing: border-box;
+}
+.submit {
+  display: block;
+  padding: 15px 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #3f802e;
+  background: #3f802e ;
+  width: 100%;
+  box-sizing: border-box;
+  color: #FFF;
+}
+.submit2{
+  display: block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 2px solid #3f802e ;
+  background: #edeee9 ;
+  width: 30%;
+  color: #3f802e ;
+  float: right;
+  margin-bottom: 15px;
+  
+}
+span.psw {
+    float: left;
+    padding-top: 16px;
+    margin-bottom: 15px;
+}
