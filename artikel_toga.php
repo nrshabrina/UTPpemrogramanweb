@@ -1,7 +1,9 @@
 <html>
 <head>
 	<title>Tanaman Toga</title>
-	<link rel="stylesheet" type="text/css" href="style/gayatoga.css">
+    <link rel="stylesheet" type="text/css" href="style/gayatoga.css">
+    <link rel="stylesheet" type="text/css" href="style/dropdown.css">
+	
 
 </head>
 <body>
@@ -13,10 +15,10 @@
 
 		<div class="menu">
 			<ul>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="klasifikasi.php">Klasifikasi</a></li>	
-                <li><a href="home.php">Home</a></li>	        		
+				<li><a href="home.php">Home</a></li>
+				<li><a href="klasifikasi.php">Klasifikasi</a></li>
+				<li><a href="#">Contact</a></li>
+                <li><a href="#" onClick="return confirm ('Hubungi bebekgoreng@gmail.com')">Help</a></li>
 			</ul>
 		</div>
 
