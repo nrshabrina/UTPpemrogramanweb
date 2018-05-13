@@ -37,7 +37,7 @@
 				<center>
 				<table style="width: 800px">
 					<tr>
-						<td colspan= 2 align= left><h1> Tanaman Obat Keluarga dan Manfaatnya</h1></td>
+						<td colspan= 0 align= left><h1> Tanaman Obat Keluarga dan Manfaatnya</h1></td>
 					</tr>
 					<tr> 
 						<td valign="top" align="left"> <p class:"justify"> Tanaman obat keluarga atau biasa disingkat Toga merupakan 
@@ -61,7 +61,7 @@
 
 				<table style="width: 800px">
 					<tr>
-						<td colspan= 2 align= left><h1> Tanaman Saga-Klasifikasi Serta Khasiatnya</h1></td>
+						<td colspan= 0 align= left><h1> Tanaman Saga-Klasifikasi Serta Khasiatnya</h1></td>
 					</tr>
 					<tr> 
 						<td valign="top" align="left"> <p class:"justify"> Saga, saga telik, saga manis ( Abrus precatorius )

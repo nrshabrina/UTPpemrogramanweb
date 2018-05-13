@@ -1,5 +1,4 @@
 
- 
 /*bagian header*/
 .wrap .header{
 	background: green;
@@ -10,20 +9,36 @@
 /*akhir header*/
  
 /*bagian menu*/
-
  
 .clear{
 	clear: both;
 }
  
 .badan{
+	height: 450px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background:#4caf50;
+	float: left;	
+	width: 38%;
 	height: 1000px;
 }
+
+/*akhir sidebar*/
+ 
+.wrap .badan .content{
+	background:#f9f9f7;
+	float: left;
+	height: 1000px;
+	width: 62%;	
+}
+ 
 .wrap .footer{
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	width: 500%;
+	width: 100%;
 	background-color: #53bd84;
 	color: white;
 	text-align: center;
