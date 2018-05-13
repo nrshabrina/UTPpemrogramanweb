@@ -1,0 +1,90 @@
+* {margin:0; padding:0;}
+ 
+wrap {
+ background-color:#fff;
+ font-family:Arial, Helvetica, sans-serif;
+ color:#000;
+}
+
+menu {
+ margin:auto;
+ text-align: left;
+ width: 100%;
+ background-color: black;
+ min-height: 77px;
+ z-index: 1000;
+ position: relative;
+} 
+
+.wrap .menu ul ul {
+ display: none;
+}
+
+.wrap .menu ul li:hover > ul{
+display: block;
+width: 150px;
+}
+
+.wrap .menu ul {
+ background: #53bd84;
+ padding: 0 20px;
+ list-style: none;
+ position: relative;
+ display: inline-table;
+ width: 100%;
+}
+
+.wrap .menu ul:after {
+ content: ""; 
+ clear:both; 
+ display: block;
+}
+
+.wrap .menu ul li{
+ float:left;
+}
+
+.wrap .menu ul li:hover{
+ background:#666;
+}
+
+.wrap .menu ul li:hover a{
+ color:#fff;
+}
+
+.wrap .menu ul li a{
+ display: block;
+ padding: 25px;
+ color: #fff;
+ text-decoration: none;
+}
+
+.wrap .menu ul ul{
+ background: #53bd84;
+ border-radius: 0px;
+ padding: 0;
+ position: absolute;
+ top:100%;
+}
+
+.wrap .menu ul ul li{
+ float:none;
+ border-top: 1px soild #53bd84;
+ border-bottom: 1px solid #53bd84;
+ position: relative;
+}
+
+.wrap .menu ul ul li a{
+ padding: 15px 40px;
+ color: #fff;
+}
+
+.wrap .menu ul ul li a:hover{
+ background-color: #666;
+}
+
+.wrap .menu ul ul ul{
+ position: absolute;
+ left: 100%;
+ top: 0;
+}

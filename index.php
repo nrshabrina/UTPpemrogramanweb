@@ -6,11 +6,12 @@ if(!isset($_SESSION['username'])){
 	header("location:login.php");
 }
 ?>
-
 <html>
 <head>
 	<title>Plantism</title>
-	<link rel="stylesheet" type="text/css" href="style/gaya.css">
+	<link rel="stylesheet" type="text/css" href="style/gaya_home.css">
+	<link rel="stylesheet" type="text/css" href="style/dropdown.css">
+	
 
 </head>
 <body>
@@ -22,20 +23,20 @@ if(!isset($_SESSION['username'])){
 
 		<div class="menu">
 			<ul>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Menu</a></li>	
-                <li><a href="home.html">Home</a></li>			
+				<li><a href="home.php">Home</a></li>
+				<li><a href="klasifikasi.php">Klasifikasi</a></li>
+				<li><a href="#">Contact</a></li>
+                <li><a href="#" onClick="return confirm ('Hubungi bebekgoreng@gmail.com')">Help</a></li>
 			</ul>
 		</div>
 
 		<div class="badan">		
 
 			<div class="sidebar">
-                <img src="img/teratai.jpg" style="padding: 5px;width:480px;height:350px;"><br>
+                <img src="teratai.jpg" style="padding: 5px;width:480px;height:350px;"><br>
                 <h3 style="font-family: “Palatino Linotype”;font-size: 30px;width: 800px; margin: 15px;">Bunga Teratai</h3>
                 <hr>
-                <img src="img/matahari.jpg" style="padding: 5px;width:480px;height:350px;"><br>
+                <img src="matahari.jpg" style="padding: 5px;width:480px;height:350px;"><br>
                 <h3 style="font-family: “Palatino Linotype”;font-size: 30px;width: 800px; margin: 15px;">Bunga Matahari
     		</div>
             
@@ -55,7 +56,7 @@ if(!isset($_SESSION['username'])){
 						30.000 jenis tanaman dari total 40.000 jenis tanaman yang ada di dunia,
 						dan 940 jenis diantaranya merupakan tanaman yang bisa dimanfaatkan untuk
 						obat-obatan tradisional dalam kehidupan sehari-hari.</p>
-						<h3><a href="artikeltoga.html"> Read More... </a></h3>
+						<h3><a href="artikel_toga.php"> Read More... </a></h3>
 						</td>
 
 						<td>
@@ -77,7 +78,7 @@ if(!isset($_SESSION['username'])){
 						kayu manis. Bunga majemuk, panjang bunga 1-1,5 cm, warna tajuk ungu muda sampai kemerahan. 
 						Variasi ukuran daun tergantung tempat tumbuh. Buah polong, panjang 2-5 cm, berisi 3-6 biji. 
 						Biji berbentuk bulat lonjong, garis tengah 0,5 cm,keras, biji segar berwarna merah mengkilat.</p>
-						<h3><a href="artikelsaga.html"> Read More... </a></h3>						
+						<h3><a href="artikel_saga.php"> Read More... </a></h3>						
 						</td>
 
 						<td> 
@@ -92,6 +93,10 @@ if(!isset($_SESSION['username'])){
 		
 		<div class="clear"></div>
 		<div class="footer">
+			<br>
+			<p>Intan-Mela-Shabrina</p>
+			<br>
+		</div>
 		</div>
 	</div>
 </body>
