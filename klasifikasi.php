@@ -37,7 +37,7 @@ $query = mysqli_query($koneksi, "SELECT * FROM klasifikasi");
             
             <form action= "proses_input.php" method="post">
             <input class="input" type="text" name="nama" placeholder="Nama Tanaman"/><br>
-            <input class="input" type="text" name="kelas" placeholder="Family"/></br>
+            <input class="input" type="text" name="kelas" placeholder="Genus"/></br>
             <input type= "submit" value= "Request Artikel">  
 
 					<br><br>
@@ -48,7 +48,7 @@ $query = mysqli_query($koneksi, "SELECT * FROM klasifikasi");
                         <tr>
 		             	   	<th> Id </th>
                        		<th> Nama </th>
-                       		<th> Family </th>
+                       		<th> Genus </th>
 		               		<th> Edit </th>
 	                		<th> Delete </th>
                     	</tr>
