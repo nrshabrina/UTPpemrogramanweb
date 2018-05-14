@@ -24,7 +24,7 @@ $query = mysqli_query($koneksi, "SELECT * FROM klasifikasi");
 			<ul>
 				<li><a href="home.php">Home</a></li>
 				<li><a href="klasifikasi.php">Klasifikasi</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="kontak.php">Contact</a></li>
                 <li><a href="#" onClick="return confirm ('Hubungi bebekgoreng@gmail.com')">Help</a></li>
 			</ul>
 		</div>
