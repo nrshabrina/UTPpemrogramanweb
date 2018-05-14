@@ -86,6 +86,9 @@
 		
 		<div class="clear"></div>
 		<div class="footer">
+        <br>
+			<p>Intan-Mela-Shabrina</p>
+			<br>
 		</div>
 	</div>
 </body>

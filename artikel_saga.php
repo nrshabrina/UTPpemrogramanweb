@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>Tanaman Toga</title>
-	<link rel="stylesheet" type="text/css" href="style/gayasaga.css">
+    <link rel="stylesheet" type="text/css" href="style/gayasaga.css">
+    <link rel="stylesheet" type="text/css" href="style/dropdown.css">
 
 </head>
 <body>
@@ -14,10 +15,10 @@
 
 		<div class="menu">
 			<ul>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="klasifikasi.php">Klasifikasi</a></li>	
-                <li><a href="home.php">Home</a></li>			
+				<li><a href="home.php">Home</a></li>
+				<li><a href="klasifikasi.php">Klasifikasi</a></li>
+				<li><a href="#">Contact</a></li>
+                <li><a href="#" onClick="return confirm ('Hubungi bebekgoreng@gmail.com')">Help</a></li>
 			</ul>
 		</div>
 
@@ -96,15 +97,15 @@
                             </tr>
                             
                         </table>
-                       
-
-             
             </div>
         </center>
 		</div>
 		
 		<div class="clear"></div>
 		<div class="footer">
+            <br>
+			<p>Intan-Mela-Shabrina</p>
+			<br>
 		</div>
 	</div>
 </body>

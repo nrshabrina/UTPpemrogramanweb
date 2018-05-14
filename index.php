@@ -5,7 +5,8 @@ session_start();
 if(!isset($_SESSION['username'])){
 	header("location:login.php");
 }
-?><html>
+?>
+<html>
 <head>
 	<title>Plantism</title>
 	<link rel="stylesheet" type="text/css" href="style/gaya_home.css">
@@ -32,10 +33,10 @@ if(!isset($_SESSION['username'])){
 		<div class="badan">		
 
 			<div class="sidebar">
-                <img src="teratai.jpg" style="padding: 5px;width:480px;height:350px;"><br>
+                <img src="img/teratai.jpg" style="padding: 5px;width:480px;height:350px;"><br>
                 <h3 style="font-family: “Palatino Linotype”;font-size: 30px;width: 800px; margin: 15px;">Bunga Teratai</h3>
                 <hr>
-                <img src="matahari.jpg" style="padding: 5px;width:480px;height:350px;"><br>
+                <img src="img/matahari.jpg" style="padding: 5px;width:480px;height:350px;"><br>
                 <h3 style="font-family: “Palatino Linotype”;font-size: 30px;width: 800px; margin: 15px;">Bunga Matahari
     		</div>
             
@@ -44,7 +45,7 @@ if(!isset($_SESSION['username'])){
 				<center>
 				<table style="width: 800px">
 					<tr>
-						<td colspan= 0 align= left><h1> Tanaman Obat Keluarga dan Manfaatnya</h1></td>
+						<td colspan= 2 align= left><h1> Tanaman Obat Keluarga dan Manfaatnya</h1></td>
 					</tr>
 					<tr> 
 						<td valign="top" align="left"> <p class:"justify"> Tanaman obat keluarga atau biasa disingkat Toga merupakan 
@@ -68,7 +69,7 @@ if(!isset($_SESSION['username'])){
 
 				<table style="width: 800px">
 					<tr>
-						<td colspan= 0 align= left><h1> Tanaman Saga-Klasifikasi Serta Khasiatnya</h1></td>
+						<td colspan= 2 align= left><h1> Tanaman Saga-Klasifikasi Serta Khasiatnya</h1></td>
 					</tr>
 					<tr> 
 						<td valign="top" align="left"> <p class:"justify"> Saga, saga telik, saga manis ( Abrus precatorius )

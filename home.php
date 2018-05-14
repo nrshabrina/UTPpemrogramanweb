@@ -25,10 +25,10 @@
 		<div class="badan">		
 
 			<div class="sidebar">
-                <img src="teratai.jpg" style="padding: 5px;width:480px;height:350px;"><br>
+                <img src="img/teratai.jpg" style="padding: 5px;width:480px;height:350px;"><br>
                 <h3 style="font-family: “Palatino Linotype”;font-size: 30px;width: 800px; margin: 15px;">Bunga Teratai</h3>
                 <hr>
-                <img src="matahari.jpg" style="padding: 5px;width:480px;height:350px;"><br>
+                <img src="img/matahari.jpg" style="padding: 5px;width:480px;height:350px;"><br>
                 <h3 style="font-family: “Palatino Linotype”;font-size: 30px;width: 800px; margin: 15px;">Bunga Matahari
     		</div>
             
@@ -56,7 +56,7 @@
 						</td>
 					</tr>
 				</table>
-
+				<br>
 				<hr>
 
 				<table style="width: 800px">
