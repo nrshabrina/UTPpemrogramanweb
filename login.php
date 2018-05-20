@@ -13,6 +13,9 @@
             <button type="submit" class="submit">Sign in</button><br><br>
 
         <center> <img src="img/hiasan.png" style: "width=70px; height=30px">
+        <p><colspan="2" align="center" style = "color: gray; font-family: 'MS Gothic';">Belum Punya Akun? <a href="daftar.php"><b>Daftar</b></a><p>
+
     </div>
-</body>
+    
+    </body>
 </html>
