@@ -18,7 +18,7 @@ if(!isset($_SESSION['username'])){
 
 	<div class="wrap">
 		<div class="header">			
-           <img src="img/plantism.png" style="padding: 10px;width:480px">
+           <center><img src="img/plant.png" style="padding: 0px;width:1000px"></center>
 		</div>
 
 		<div class="menu">
@@ -34,9 +34,11 @@ if(!isset($_SESSION['username'])){
 		<div class="badan">		
 
 			<div class="sidebar">
+				<br><br>
                 <img src="img/teratai.jpg" style="padding: 5px;width:480px;height:350px;"><br>
                 <h3 style="font-family: “Palatino Linotype”;font-size: 30px;width: 800px; margin: 15px;">Bunga Teratai</h3>
-                <hr>
+				<hr>
+				<br><br>
                 <img src="img/matahari.jpg" style="padding: 5px;width:480px;height:350px;"><br>
                 <h3 style="font-family: “Palatino Linotype”;font-size: 30px;width: 800px; margin: 15px;">Bunga Matahari
     		</div>
@@ -45,7 +47,7 @@ if(!isset($_SESSION['username'])){
 
 				<center>
 				<table style="width: 800px">
-					<tr>
+					<tr><br><br><br>
 						<td colspan= 2 align= left><h1> Tanaman Obat Keluarga dan Manfaatnya</h1></td>
 					</tr>
 					<tr> 
@@ -61,7 +63,7 @@ if(!isset($_SESSION['username'])){
 						</td>
 
 						<td>
-							<img src="img/herb-garden.jpg" style="padding: 10px;width:350px;height:300px;"><br>
+							<img src="img/herb-garden.jpg" style="padding: 10px;width:350px;height:300px;"><br><br><br>
 						</td>
 					</tr>
 				</table>
@@ -69,7 +71,7 @@ if(!isset($_SESSION['username'])){
 				<hr>
 
 				<table style="width: 800px">
-					<tr>
+					<tr><br><br>
 						<td colspan= 2 align= left><h1> Tanaman Saga-Klasifikasi Serta Khasiatnya</h1></td>
 					</tr>
 					<tr> 

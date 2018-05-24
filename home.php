@@ -1,3 +1,11 @@
+<?php
+include "koneksi.php";
+session_start();
+
+if(!isset($_SESSION['username'])){
+	header("location:login.php");
+}
+?>
 <html>
 <head>
 	<title>Plantism</title>
@@ -10,7 +18,7 @@
 
 	<div class="wrap">
 		<div class="header">			
-           <img src="img/plantism.png" style="padding: 10px;width:480px">
+           <center><img src="img/plant.png" style="padding: 0px;width:1000px"></center>
 		</div>
 
 		<div class="menu">
@@ -26,9 +34,11 @@
 		<div class="badan">		
 
 			<div class="sidebar">
+				<br><br>
                 <img src="img/teratai.jpg" style="padding: 5px;width:480px;height:350px;"><br>
                 <h3 style="font-family: “Palatino Linotype”;font-size: 30px;width: 800px; margin: 15px;">Bunga Teratai</h3>
-                <hr>
+				<hr>
+				<br><br>
                 <img src="img/matahari.jpg" style="padding: 5px;width:480px;height:350px;"><br>
                 <h3 style="font-family: “Palatino Linotype”;font-size: 30px;width: 800px; margin: 15px;">Bunga Matahari
     		</div>
@@ -37,8 +47,8 @@
 
 				<center>
 				<table style="width: 800px">
-					<tr>
-						<td colspan= 0 align= left><h1> Tanaman Obat Keluarga dan Manfaatnya</h1></td>
+					<tr><br><br><br>
+						<td colspan= 2 align= left><h1> Tanaman Obat Keluarga dan Manfaatnya</h1></td>
 					</tr>
 					<tr> 
 						<td valign="top" align="left"> <p class:"justify"> Tanaman obat keluarga atau biasa disingkat Toga merupakan 
@@ -53,16 +63,16 @@
 						</td>
 
 						<td>
-							<img src="img/herb-garden.jpg" style="padding: 10px;width:350px;height:300px;"><br>
+							<img src="img/herb-garden.jpg" style="padding: 10px;width:350px;height:300px;"><br><br><br>
 						</td>
 					</tr>
 				</table>
-				<br>
+
 				<hr>
 
 				<table style="width: 800px">
-					<tr>
-						<td colspan= 0 align= left><h1> Tanaman Saga-Klasifikasi Serta Khasiatnya</h1></td>
+					<tr><br><br>
+						<td colspan= 2 align= left><h1> Tanaman Saga-Klasifikasi Serta Khasiatnya</h1></td>
 					</tr>
 					<tr> 
 						<td valign="top" align="left"> <p class:"justify"> Saga, saga telik, saga manis ( Abrus precatorius )

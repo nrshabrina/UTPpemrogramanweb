@@ -10,7 +10,7 @@
 
 	<div class="wrap">
 		<div class="header">			
-           <img src="img/plantism.png" style="padding: 10px;width:480px">
+        <center><img src="img/plant.png" style="padding: 0px;width:1000px"></center>
 		</div>
 
 		<div class="menu">
@@ -28,7 +28,7 @@
                 
                         <table style="width: 800px">
                             <tr>
-                                <td colspan= 2 align= center><h1> Tanaman Obat Keluarga dan Manfaatnya</h1></td>
+                                <td colspan= 2 align= center><h1> Tanaman Obat Keluarga dan Manfaatnya</h1><br><br></td><br>
                             </tr>
                             <tr> 
                                 <td valign="top" align="left" style=width:60%;> <p class:"justify"> Tanaman obat keluarga atau biasa disingkat Toga merupakan 

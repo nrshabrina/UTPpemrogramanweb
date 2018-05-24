@@ -17,7 +17,7 @@ $query = mysqli_query($koneksi, "SELECT * FROM klasifikasi");
 <body>
 	<div class="wrap">
 		<div class="header">			
-           <img src="img/plantism.png" style="padding: 10px;width:480px">
+		<center><img src="img/plant.png" style="padding: 0px;width:1000px"></center>
 		</div>
 
 		<div class="menu">
@@ -31,7 +31,7 @@ $query = mysqli_query($koneksi, "SELECT * FROM klasifikasi");
 `
 		<div class="badan">
 			<center>
-            <h2>Kontak</h2>
+            <h2>Narahubung Komunitas Plantism</h2>
             <br>
             <center>
                 <table id="List">

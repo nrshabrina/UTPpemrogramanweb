@@ -10,7 +10,7 @@
 
 	<div class="wrap">
 		<div class="header">			
-           <img src="img/plantism.png" style="padding: 10px;width:480px">
+        <center><img src="img/plant.png" style="padding: 0px;width:1000px"></center>
 		</div>
 
 		<div class="menu">
@@ -28,10 +28,10 @@
                 
                         <table style="width: 800px">
                             <tr>
-                                <td colspan= 2 align= left><h1> Tanaman Saga-Klasifikasi serta Khasiatnya</h1></td>
+                                <td colspan= 2 align= left><h1> Tanaman Saga-Klasifikasi serta Khasiatnya</h1></td><br><br>
                             </tr>
                             <tr>   
-                                <td> <img src="img/saga-perdu.jpg" style="padding:10px;width:600px;height:400px; "><br>
+                                <td> <br><center><img src="img/saga-perdu.jpg" style="padding:10px;width:600px;height:400px; "></center><br>
                                 <p> Saga, saga telik, saga manis ( Abrus precatorius ) merupakan tanaman perdu merambat, 
                                     melilit, tinggi 2-5 m. Daun majemuk ganjil dan duduk berseling-seling. Anak daun 8-17 
                                     pasang, bentuk bulat telur, panjang 0,6-2,5 cm, lebar 3-5 mm, jika diremas rasa seperti 
